@@ -82,7 +82,8 @@ export async function generateMetadata(
       images: [{
         url: "https://contribute.optimism.io/cover.jpeg",
       }],
-    }
+    },
+    twitter: { card: "summary_large_image", site: "https://contribute.optimism.io", creator: "Optimism", "images": "https://contribute.optimism.io/cover.jpeg" }
   }
 }
 

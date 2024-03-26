@@ -65,17 +65,16 @@ export const metadata: Metadata = {
   title: 'Builder Ideas | Optimism',
   description: 'Explore ideas for your next project.',
   openGraph: {
-    type: 'website',
-    url: 'https://contribute.optimism.io',
-    title: 'Builder Ideas | Optimism',
-    description: 'Explore ideas for your next project.',
-    siteName: 'optimism.io',
-    images: [
-      {
-        url: 'https://contribute.optimism.io/cover.jpeg',
-      },
-    ],
+    type: "website",
+    url: "https://contribute.optimism.io",
+    title: "Builder List | Optimism",
+    description: "Explore ideas for your next project.",
+    siteName: "optimism.io",
+    images: [{
+      url: "https://contribute.optimism.io/cover.jpeg",
+    }],
   },
+  twitter: { card: "summary_large_image", site: "https://contribute.optimism.io", creator: "Optimism", "images": "https://contribute.optimism.io/cover.jpeg" }
 }
 
 export default async function Home() {
